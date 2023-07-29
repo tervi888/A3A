@@ -39,7 +39,6 @@ public class AppOrderPositiveTest {
     }
     @Test
     public void shouldBeSuccessfulForm() {
-        driver.get("http://localhost:9999/");
         driver.findElement(By.cssSelector("[data-test-id='name'] input")).sendKeys("Иванов Иван");
         driver.findElement(By.cssSelector("[data-test-id='phone'] input")).sendKeys("+79999999999");
         driver.findElement(By.className("checkbox__box")).click();
