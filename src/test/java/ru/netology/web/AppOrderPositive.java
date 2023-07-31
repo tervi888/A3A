@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class AppOrderPositive {
+public class AppOrderPositive {
     private WebDriver driver;
 
     @BeforeAll // хук, который запускает драйвер
